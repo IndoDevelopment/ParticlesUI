@@ -1,10 +1,10 @@
 name: ParticlesUI
-main: ParticleGiings\Main
+main: IndoParticle\Main
 version: 1.0.0
 softdepend:
 - FormAPI
 api: 3.0.0
-author: Giings, xSoapers
+author: xSoapers, IndoDev
 commands:
   pcrownheart:
     description: "Particle CrownHeart Command"
@@ -26,6 +26,26 @@ commands:
     description: "Particle Dring Command"
     permission: p.dring
     usage: /pdring
+   peffect:
+    description: "Particle Spell Command"
+    permission: p.ef
+    usage: /pef
+  pnote: 
+    description: "Particle Note Command"
+    permission: p.note
+    usage: /pnote
+  penc:
+    description: "Particle Enchant Command"
+    permission: p.enc
+    usage: /penc
+  pdust:
+    description: "Partile Dust Command"
+    permission: p.dust
+    usage: /pdust
+  prain:
+    description: "Partile Rain Command"
+    permission: p.rain
+    usage: /prain
   pui:
     description: "Particle UICommand"
     permission: p.ui
@@ -48,6 +68,63 @@ permissions:
   p.dring:
     default: op
     description: Particle Dring Command
+  peffect:
+    description: "Particle Spell Command"
+    permission: p.ef
+    usage: /pef
+  pnote: 
+    description: "Particle Note Command"
+    permission: p.note
+    usage: /pnote
+  penc:
+    description: "Particle Enchant Command"
+    permission: p.enc
+    usage: /penc
+  pdust:
+    description: "Partile Dust Command"
+    permission: p.dust
+    usage: /pdust
+  prain:
+    description: "Partile Rain Command"
+    permission: p.rain
+    usage: /prain
+  pui:
+    description: "Particle UI Command"
+    permission: p.ui
+    usage: /pui
+    
+    
+permissions:
+  p.crownheart:
+    default: op
+    description: Particle CrownHeart Command
+  p.laser:
+    default: op
+    description: Particle Laser Command
+  p.tornado:
+    default: op
+    description: Particle Tornado Command
+  p.sboom:
+    default: op
+    description: Particle SonicBoom Command
+  p.dring:
+    default: op
+    description: Particle Dring Command
+  p.ef:
+    default: op
+    description: Particle Speel Command
+  p.note:
+    default: op
+    description: Particle Note Command
+  p.enc:
+    default: op
+    description: Particle Enchant Command
+  p.dust:
+    defualt: op
+    description: Particle Dust Command
+  p.rain:
+    defualt: op
+    description: Particle Rain Command
   p.ui:
     default: op
     description: Particle UI Command
